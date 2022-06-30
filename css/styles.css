@@ -1,0 +1,303 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Noto Serif JP', serif;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #0A0B0B;
+    color: #fff;
+
+}
+.navbarM{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:45px;  
+    margin: 20px 0px; 
+    padding: 20px 70px;
+
+ }
+ .navbar-brand{
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+ }
+
+.navbarItem a{
+    color: grey;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0 15px;
+} 
+.getinTouchBtn{
+    background-color: #FAEA4D;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    font-weight: 700;
+}
+.hamburgerBtn{
+    display: none;
+}
+.big-headings{
+    width: 70%;
+    margin: 10px 0;
+    padding: 0 70px;
+}
+
+.big-headings h1{
+    font-size: 4.5rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.big-headings p{
+        color: grey;
+        font-size: 22px;
+        font-weight: 300;
+        width: 85%;
+        word-break: normal;
+     }
+.usersBrandImgs{
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.workDemoDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.workDemoDiv p{
+    color: grey;
+}
+.work1, .work2{
+    width: 100%;
+}
+ .work2{
+margin-left: 100px;
+}
+.work1 img, .work2 img{
+    width: 100%
+}
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    background-color: #2E2E37;
+    padding: 40px 70px;
+    
+}
+.large-headings, .small-headings{
+    line-height: 1.7rem;
+    width:70%;
+}
+.large-headings h1{
+    overflow: hidden;
+    margin-bottom: 20px;
+    line-height: 3rem;
+    font-size: 2.6rem;
+}
+.large-headings p{
+    margin-bottom: 20px;
+    color: grey;
+}
+.small-headings{
+    margin-left: 100px;
+}
+.small-headings p{
+    margin-bottom: 20px;
+    color: grey;
+}
+.bottom-text{
+    display: none;
+}
+.bottom-heading{
+    width: 70%;
+    margin: 50px 0;
+    padding: 0 70px;
+}
+.bottom-heading h1{
+    margin-bottom: 10px;
+    font-size: 2.9rem;
+}
+.bottom-heading p{
+    color: grey;
+    font-size: 26px;
+    font-weight: 300;
+    width: 85%;
+    word-break: normal;
+    margin-bottom: 10px;
+}
+.getintouchBtn{
+    background-color: #FAEA4D;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+.end-text{
+    background-color: #2E2E37;
+    margin-top: 5%;
+    padding: 15px 70px;
+}
+
+.logos{
+    float: right;
+    margin-left: 10px;
+}
+
+@media (max-width:480px){
+  .navbarM{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0; 
+    padding: 0 20px;
+  }
+  .navbar-brand{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    justify-content: left;
+  }
+  .navbarItem{
+    display: none;
+  }
+  .getinTouchBtn{
+   display: none;
+}
+.hamburgerBtn{
+    display: flex;
+    text-align: right;
+}
+
+.big-headings{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+.title-heading{
+    display: none;
+}
+.big-headings h1{
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+.big-headings p{
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: 100;
+    width: 100%;
+   
+}
+.usersBrandImgs{
+    display: block;
+    margin: 15%;
+    text-align: center;
+   padding: 0;
+}
+
+.icon-img{
+    margin: 20px 5px;
+}
+.workDemoDiv{
+    display: block;
+    padding: 0 20px;
+    margin: 30px 0;
+}
+
+.workDemoDiv p{
+    color: grey;
+    font-size: 1rem;
+}
+.work1, .work2{
+    width: 100%;
+}
+.work1 h1, p{
+    margin-bottom: 10px;
+}
+.work2 h1, p{
+    margin-bottom: 10px;
+}
+ .work2{
+margin-left: 0;
+}
+.work1 img, .work2 img{
+    width: 100%
+}
+.headings{
+    display: block;
+    margin-top: 4%;
+    background-color: #2E2E37;
+    padding: 20px;
+}
+.large-headings, .small-headings{
+    line-height: 1.5rem;
+    width: 100%;
+}
+.large-headings h1{
+   line-height: 2.5rem;
+   margin-bottom: 10px;
+   font-size: 1.5rem;
+}
+.large-headings p{
+    margin-bottom: 10px;
+    color: grey;
+}
+.small-headings{
+    margin-left: 0;
+}
+.small-headings p{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.bottom-heading{
+    margin-top: 2%;
+    padding: 0 10px;
+    width: 100%;
+  }
+  .bottom-heading h1{
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+  }
+  .bottom-heading p{
+      color: grey;
+      margin-bottom: 1%;
+      font-size: 1.2rem;
+  }
+  .getintouchBtn{
+    background-color: #FAEA4D;
+    padding: 15px 10px;
+    font-size: 17px;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    width: 45%;
+    margin-top: 10px;
+  }
+  .end-text{
+    background-color: #2E2E37;
+    margin-top: 15%;
+    padding: 10px;
+   }
+ .logos{
+    margin-left: 10px;
+    float: right;
+ }
+
+}
